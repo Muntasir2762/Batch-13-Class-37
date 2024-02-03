@@ -1,0 +1,31 @@
+
+
+=======MySQL========
+SQL = Structured Query Language
+
+Create = C
+Read   = R
+Update = U
+Delete = D
+
+CRUD=>Operation
+
+Student's Infromation
+
+id, name, roll, phone, email, address, class = 7
+    Bablu, 1,   012345677, abc@gmail.com, Dhaka, Uttara  10
+id = integer, bigInteger, unsignedBigInteger (1, 2, 3)  Signed Number, Unsigned Number (-2, +2, 3)
+
+Database => Multiple Tables
+
+school_management_system => students, teachers, staffs, exams
+
+
+======================Insert Query============
+
+INSERT INTO students (name, roll, phone, email, address, class) VALUES ('Hablu', 2, '345678678987', 'efg@gmail.com', 'Mirpur, Dhaka, Bangladesh', 8);
+SELECT * FROM students;
+SELECT * FROM students WHERE roll = 5;
+SELECT phone, email FROM students WHERE roll = 5;
+UPDATE students SET phone = '018XXXXXXXX' WHERE id = 1;
+DELETE FROM students WHERE id = 3;
